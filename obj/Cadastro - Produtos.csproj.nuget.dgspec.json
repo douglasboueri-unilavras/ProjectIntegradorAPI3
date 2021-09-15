@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robert\\OneDrive - Fundação Educacional de Lavras\\Documents\\Cadastro - Produtos\\Cadastro - Produtos.csproj": {}
+    "C:\\Users\\Douglas Boueri\\Documents\\GitHub\\ProjectIntegradorAPI3\\Cadastro - Produtos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robert\\OneDrive - Fundação Educacional de Lavras\\Documents\\Cadastro - Produtos\\Cadastro - Produtos.csproj": {
+    "C:\\Users\\Douglas Boueri\\Documents\\GitHub\\ProjectIntegradorAPI3\\Cadastro - Produtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robert\\OneDrive - Fundação Educacional de Lavras\\Documents\\Cadastro - Produtos\\Cadastro - Produtos.csproj",
+        "projectUniqueName": "C:\\Users\\Douglas Boueri\\Documents\\GitHub\\ProjectIntegradorAPI3\\Cadastro - Produtos.csproj",
         "projectName": "Cadastro - Produtos",
-        "projectPath": "C:\\Users\\robert\\OneDrive - Fundação Educacional de Lavras\\Documents\\Cadastro - Produtos\\Cadastro - Produtos.csproj",
-        "packagesPath": "C:\\Users\\robert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robert\\OneDrive - Fundação Educacional de Lavras\\Documents\\Cadastro - Produtos\\obj\\",
+        "projectPath": "C:\\Users\\Douglas Boueri\\Documents\\GitHub\\ProjectIntegradorAPI3\\Cadastro - Produtos.csproj",
+        "packagesPath": "C:\\Users\\Douglas Boueri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Douglas Boueri\\Documents\\GitHub\\ProjectIntegradorAPI3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\robert\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Douglas Boueri\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
