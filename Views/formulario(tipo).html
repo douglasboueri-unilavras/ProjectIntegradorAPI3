@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário(tipo)</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="formulariosAT5.css">
+        <script src="./jquery-3.6.0.js"> </script>
+        <script src="./formulario.js"></script>
+        
+    </head>
+<body>
+
+    
+    
+    <form id="id_formulario" name="dados" >
+        <table align="center" border="1">
+            <tr>
+                <td> <label>Nome:</label></td>
+                <td><input type="text" id="id_nome" name="nome" placeholder=" nome do produto" size="65" autocomplete="off"   onchange="removerClasse(this)" ></td>
+            </tr> 
+            <br>
+            <tr>
+                <td> <label>Codigo::</label></td>
+                <td><input type="number" id="id_codigo" name="codigo" placeholder="Digite o Codigo do produto " size="45"  onchange="removerClasse(this)"></td>
+
+              
+            </tr>     
+            </tr>
+                <td><label>tipo:</label></td>
+                <td>
+                   <select id="id_tipo" name="tipo" onchange="removerClasse(this)" >
+                        <option value="0">escolha..</option>
+                       
+                    </select>
+                
+
+                </td>
+            <tr>
+                <td> ARMAZENAGEM:</td>
+                <td>
+                    <input type="radio" name="amrazenagem" size="50 "   onchange="removerClasse(this)" >refrigerado
+                    <input type="radio" name="armazenagem" size="50 "  onchange="removerClasse(this)" >congelado <br>
+                    <input type="radio" name="armazenagem" size="50"  onchange="removerClasse(this)">local seco 
+                </td>
+            </tr>
+      
+            </tr>
+               
+                <td colspan="2">
+                    
+                    <button  onclick="disparo()" class= "botao" type="button">Salvar</button>
+                </td>
+        </div>  
+
+            </table>
+
+            <br>
+            <br>
+            <br>
+
+            <table  id="tabela2" border="9">
+                <thead class="thead2">
+                    <tr>
+                        <th>Nome</th>
+                        <th>codigo</th>
+                        <th>tipo</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody2">
+                    
+                </tbody>
+    
+            </table>
+		</form>
+    </body>
+</html>
