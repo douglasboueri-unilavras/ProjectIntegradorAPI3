@@ -1,15 +1,13 @@
-public class pizza
+﻿using System;
+using System.Collections.Generic;
+
+namespace Cadastro___Produtos.Models
 {
-    
-    
-    public string Nome { get; set; }
-
-    public int Numero_de_fatias { get; set; }
-
-    public float Preço { get; set; }
-    
-    public bool borda { get; set; }
-    
-
-    
+    public partial class Pizza
+    {
+        public string Nome { get; set; }
+        public int NumeroDeFatias { get; set; }
+        public double? Preço { get; set; }
+        public int Borda { get; set; }
+    }
 }
